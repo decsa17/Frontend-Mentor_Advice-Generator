@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background: #202733;
+  color: #53ffaa;
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #313a49;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .advice-number {
+  font-size: medium;
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.25em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.container p {
+  text-align: center;
+  font-size: 1.75em;
+  font-family: "Manrope", sans-serif;
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+}
+.container .divider {
+  margin: 32px 0;
+  align-self: center;
+}
+.container .button {
+  background: #53ffaa;
+  color: #202733;
+  border: none;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: -4.5em;
+}
+
+/*# sourceMappingURL=main.css.map */
